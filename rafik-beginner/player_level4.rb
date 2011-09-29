@@ -28,7 +28,7 @@ class Player
        if space.enemy?
           warrior.attack!
        elsif space.captive?
-          warrior.rescue!
+          warrior.rescue!p
        end          
     end
     
